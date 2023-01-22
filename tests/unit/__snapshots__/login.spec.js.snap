@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SnapShot testing for login view. SnapShot LoginView. 1`] = `
+<div>
+  <table
+    class="border-separate p-5 px-10"
+  >
+    <thead>
+      <tr>
+        <th
+          class="w-24"
+        />
+        <th />
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td
+          class=""
+        >
+          ユーザID：
+        </td>
+        <td
+          class="bg-blue-200"
+        >
+          <input
+            id="username"
+            type="text"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td
+          class=""
+        >
+          パスワード：
+        </td>
+        <td
+          class="bg-blue-200"
+        >
+          <input
+            id="password"
+            type="password"
+          />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div
+    class="p-5 px-10"
+  >
+    <button
+      class="bg-blue-200 p-2 w-24 rounded-xl"
+    >
+      ログイン
+    </button>
+  </div>
+</div>
+`;

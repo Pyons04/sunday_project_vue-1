@@ -42,7 +42,6 @@ describe('Unit Test for CreateView.vue.', () => {
     //算出プロパティの戻り値自体を確認(同期的)
     expect(wrapper.vm.maxLengthValidation).toBe('1 文字 長すぎます。') 
     await flushPromises()
-
     //算出プロパティによるDOM操作を確認(非同期)
     expect(wrapper.find('[data-testid="maxLengthMessage"]').text()).toBe('1 文字 長すぎます。')
 
